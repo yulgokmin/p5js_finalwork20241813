@@ -2,20 +2,69 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>과제 1</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
-    <script src="sketch.js"></script>
+    <title>p5.js 과제 모음</title>
     <style>
       body {
-        background: #111;
-        color: #fff;
         font-family: sans-serif;
-        margin: 0;
-        padding: 10px;
+        background: #f5fafa;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      /* 4분할 그리드 */
+      .grid {
+        max-width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+
+      .card {
+        background: #ffffff;
+        border-radius: 10px;
+        border: 1px solid #ccd;
+        padding: 16px;
+        text-align: center;
+      }
+
+      .card a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: #1a73e8;
+      }
+
+      .card a:hover {
+        text-decoration: underline;
       }
     </style>
 </head>
 <body>
-    <h1>과제 1</h1>
+    <h1>p5.js 과제 모음</h1>
+
+    <div class="grid">
+        <div class="card">
+            <a href="hw1/index.html">과제 1</a>
+        </div>
+
+        <div class="card">
+            <a href="hw4/index.html">과제 4</a>
+        </div>
+
+        <div class="card">
+            <a href="hw2/index.html">과제 2</a>
+        </div>
+
+        <div class="card">
+            <a href="hw3/index.html">과제 3</a>
+        </div>
+    </div>
+
 </body>
 </html>
+
