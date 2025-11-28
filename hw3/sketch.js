@@ -1,4 +1,3 @@
-
 function setup() {
   createCanvas(600, 400);
 }
@@ -207,3 +206,4 @@ function keyPressed(){
   
     if(key === 's');
     saveGif('20241813 황채민_과제 3', 10);
+}
