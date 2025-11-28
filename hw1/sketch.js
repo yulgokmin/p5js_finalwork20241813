@@ -63,5 +63,4 @@ function draw() {
   triangle(180, 275, 200, 275, 190, 255);
   triangle( 50, 220, 70, 220, 60, 200);
   //하얀 삼각형들
- saveCanvas();
 }
